@@ -1,0 +1,22 @@
+{
+  "name": "gent.css",
+  "version": "1.0.0",
+  "description": "css 库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccqgithub/gent.css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccqgithub/gent.css/issues"
+  },
+  "homepage": "https://github.com/ccqgithub/gent.css#readme",
+  "devDependencies": {
+    "node-sass": "^3.10.1"
+  }
+}
