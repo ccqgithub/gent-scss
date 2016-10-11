@@ -1,0 +1,25 @@
+@import '../vendors/normalize';
+
+@mixin gt-reset() {
+  // normalize.css
+  @include gt-normalize();
+
+  // box-sizing
+  html {
+    box-sizing: border-box;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  // viewport
+  @viewport {
+     width: device-width;
+     zoom: 1;
+  }
+
+
+}

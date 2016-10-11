@@ -1,7 +1,0 @@
-body gt-layout_test, body div {
-  font-size: 14px;
-}
-
-body gt-layout_test.is-active, body div.is-active {
-  font-size: 15px;
-}
