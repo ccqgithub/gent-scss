@@ -1,0 +1,15 @@
+@import "../util";
+
+body {
+  #{gt-s(layout, test)} {
+    font-size: 14px;
+
+    &.#{gt-m(active)} {
+      font-size: 15px;
+    }
+  }
+
+  div {
+    @extend #{gt-s(layout, test)};
+  }
+}

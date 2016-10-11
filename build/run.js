@@ -45,10 +45,13 @@ var errorCount = 0;
 sourceFiles.forEach(function(item) {
   var output = path.join(distPath, item);
 
+  output = output.split('.').slice(0, -1).join('.') + '.css';
+
   sass
   .render({
     file: path.join(sourcePath, item),
     outFile: output,
+    outputStyle: 'expanded'
   }, function(err, result) {
     if (err) {
       console.log(err);
