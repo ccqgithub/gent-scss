@@ -1,6 +1,7 @@
-@import '../vendors/normalize';
+@import '../vendor/normalize';
 
 @mixin gt-reset() {
+
   // normalize.css
   @include gt-normalize();
 

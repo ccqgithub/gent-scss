@@ -1,4 +1,7 @@
-@import '../core/util';
-@import '../mixins/reset';
+@import '../core/fun';
+@import '../mixin/reset';
+@import '../mixin/grid';
 
-@include gt-reset();
+// @include gt-reset();
+
+@include gt-grid(12);

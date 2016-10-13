@@ -1,0 +1,20 @@
+/* 工具函数集合 */
+
+@import './var';
+
+
+@function gt-selector($prefix, $block, $element) {
+  @return $prefix + $block + '_' + $element;
+}
+
+@function gt-modifier($prefix, $modifier) {
+  @return $prefix + $modifier;
+}
+
+@function gt-s($block, $element) {
+  @return gt-selector($gt-selector-prefix, $block, $element);
+}
+
+@function gt-m($modifier) {
+  @return gt-modifier($gt-modifier-prefix, $modifier);
+}

@@ -1,0 +1,14 @@
+/*表格布局*/
+
+@import "../core/var";
+@import "../core/fun";
+
+@mixin gt-grid($colNum) {
+  $i: 1;
+  @while $i <= $colNum {
+    .item-#{$colNum}-#{$i} {
+      width: $i / $colNum * 100 + %;
+    }
+    $i: $i + 1;
+  }
+}
